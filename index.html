@@ -1,0 +1,115 @@
+
+<html>
+<script>
+    window.addEventListener('load', function() {
+      alert('HELLO PROFESSOR, WELCOME TO MY WEBSITE ABOUT CAKESS!');
+    });
+	function showPopup() {
+      var popup = document.createElement('div');
+      popup.className = 'popup';
+      popup.innerText = 'A CAKE A DAY KEEPS THE DOCTOR AWAY';
+
+      document.body.appendChild(popup);
+	 }
+  </script>
+  
+   <style>
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #FFFFFF;
+      padding: 20px;
+      border: 2px solid #000;
+      font-size: 100px;
+      text-align: center;
+      z-index: 9999;
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+	  background-color: #fff;
+      padding: 5px;
+      border: 20px solid #000;
+      font-size: 40px;
+    }
+	</style>
+  
+<head>
+	<meta charset="UTF-8">
+	<title>FAVOURITE CAKES</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		#header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		#logo {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<ul>
+				<li class="home current">
+					<a href="index.html"><span>HOME</span></a>
+				</li>
+				<li class="products">
+					<a href="products.html"><span>CAKES</span></a>
+				</li>
+				<li class="about">
+					<a href="about.html"><span>HOW TO MAKE</span></a>
+				</li>
+				<li class="blog">
+					<a href="blog.html"><span>ME</span></a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<a href="products.html"><img src="images/1.jpg" alt="Image" width="950" height="400"></a>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<div>
+					<div>
+						<h1>CAKES</h1>
+						<h4>THESE ARE THE CAKES THAT I LIKE THE MOST</h4>
+						<ul>
+							<li>
+								<a href="products.html"><img src="images/red.jpg" alt="Image" width="250" height="350"></a>
+								<h2><a href="products.html">RED VELVET</a></h2>
+							</li>
+							<li>
+								<a href="products.html"><img src="images/choc.jpg" alt="Image" width="250" height="350"></a>
+								<h2><a href="products.html">CHOCOLATE</a></h2>
+							</li>
+							<li>
+								<a href="products.html"><img src="images/cheese.jpg" alt="Image" width="250" height="350"></a>
+								<h2><a href="products.html">CHEESECAKE</a></h2>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<div>
+			
+    <button onclick="showPopup()">III LLLOOOVVVEEE CCCAAAKKKEEESSS</button>
+				<h3>AUDRI MARJAN TASNIM // 23229521
+			</div>
+		</div>
+	</div>
+</body>
+</html>
